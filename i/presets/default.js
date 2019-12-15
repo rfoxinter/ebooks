@@ -4,8 +4,8 @@ Bibi.Preset = {
 
 "preset-name"                : "Default", // Name of this preset. As you like.
 "preset-description"         : "Default Preset for BiB/i.", // Description for this preset. As you like.
-"preset-author"              : "Satoru MATSUSHIMA", // Name of the author of this preset. As you like.
-"preset-author-href"         : "http://bibi.epub.link", // URI of a website, etc. of the author of this preset. As you like.
+"preset-author"              : "rfoxinter", // Name of the author of this preset. As you like.
+"preset-author-href"         : "https://github.com/rfoxinter/ebooks", // URI of a website, etc. of the author of this preset. As you like.
 
 // -------------------------------------------------------------------------------------------------
 
