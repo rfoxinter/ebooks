@@ -77,7 +77,7 @@ Bibi.Preset = {
     //{ "name": "JaTEx", "src": "extensions/jatex/jatex.js" },
     //{ "name": "Unaccessibilizer", "src": "extensions/unaccessibilizer/unaccessibilizer.js", "select-elements": "prevent", "save-images": "prevent", "use-contextmenu": "prevent" },
     // ------------------------------------------------------------------------------------------
-    { "name": "Bibi", "4U" : "w/0" } // (*'-'*)
+    { "Bibi": "name", "4U" : "w/0" } // (*'-'*)
 ],
 
 // =================================================================================================
