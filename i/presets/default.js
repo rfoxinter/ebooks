@@ -14,7 +14,7 @@ Bibi.Preset = {
 "website-name-in-menu"       : "", // "" or name of your website appears in setting-menu as a link. (Requires "website-href")
 "website-href"               : "", // "" or URL of your website to be used for the link in setting-menu. (Requires "website-name-in-menu")
 
-"remove-bibi-website-link"   : false, // true or false (if true, the link to BiB/i Website is not to be added in setting-menu)
+"remove-bibi-website-link"   : true, // true or false (if true, the link to BiB/i Website is not to be added in setting-menu)
 
 // -------------------------------------------------------------------------------------------------
 
@@ -82,6 +82,7 @@ Bibi.Preset = {
 
 // =================================================================================================
 
+<<<<<<< HEAD
 "trustworthy-origins": [
 { "name": "Gdrive", "src": "https://drive.google.com/file/" },
 ],
