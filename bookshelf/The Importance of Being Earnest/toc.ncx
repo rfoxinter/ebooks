@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="eng">
+  <head>
+    <meta content="d5204346-7b30-4823-a587-89e395a9118a" name="dtb:uid"/>
+    <meta content="3" name="dtb:depth"/>
+    <meta content="calibre (4.6.0)" name="dtb:generator"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+  <docTitle>
+    <text>The Importance of Being Earnest</text>
+  </docTitle>
+  <navMap>
+    <navPoint class="chapter" id="uAXePMKBLTzHf8F6pY4jh84" playOrder="1">
+      <navLabel>
+        <text>Titlepage</text>
+      </navLabel>
+      <content src="epub/text/titlepage.xhtml"/>
+    </navPoint>
+    <navPoint class="chapter" id="uYQaKbm7T9QkFdVUTLUCIAE" playOrder="2">
+      <navLabel>
+        <text>Dramatis Personae</text>
+      </navLabel>
+      <content src="epub/text/dramatis-personae.xhtml"/>
+    </navPoint>
+    <navPoint class="chapter" id="u8GGVHq2npUYKejBSHxfY8G" playOrder="3">
+      <navLabel>
+        <text>The Scenes of the Play</text>
+      </navLabel>
+      <content src="epub/text/the-scenes-of-the-play.xhtml"/>
+    </navPoint>
+    <navPoint class="chapter" id="ubqYTtPzmsfpzJdIFXCSwBF" playOrder="4">
+      <navLabel>
+        <text>The Importance of Being Earnest</text>
+      </navLabel>
+      <content src="epub/text/halftitle.xhtml"/>
+      <navPoint class="chapter" id="ugti8wXAHSgFF6BVfcTUnd7" playOrder="5">
+        <navLabel>
+          <text>Act I</text>
+        </navLabel>
+        <content src="epub/text/act-1.xhtml"/>
+      </navPoint>
+      <navPoint class="chapter" id="u8rvuZvYh2KtZlqWPnzLbfA" playOrder="6">
+        <navLabel>
+          <text>Act II</text>
+        </navLabel>
+        <content src="epub/text/act-2.xhtml"/>
+      </navPoint>
+      <navPoint class="chapter" id="uejsXzJPuM2G5fnKKjtL3q7" playOrder="7">
+        <navLabel>
+          <text>Act III</text>
+        </navLabel>
+        <content src="epub/text/act-3.xhtml"/>
+      </navPoint>
+    </navPoint>
+  </navMap>
+</ncx>

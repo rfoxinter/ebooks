@@ -1,0 +1,125 @@
+.block_ {
+    color: #404040;
+    display: block;
+    font-size: 1.5em;
+    font-variant: small-caps;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    margin: 0;
+    padding: 0
+    }
+.block_1 {
+    color: black;
+    display: block;
+    font-family: serif;
+    font-size: 0.75em;
+    text-align: center;
+    margin: 0;
+    padding: 0
+    }
+.block_2 {
+    color: #404040;
+    display: block;
+    font-size: 1.5em;
+    font-variant: small-caps;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    margin: 0 0 15pt;
+    padding: 0
+    }
+.block_3 {
+    color: black;
+    display: block;
+    font-family: serif;
+    font-size: 0.75em;
+    line-height: 1.2;
+    text-align: center;
+    margin: 0 0 10pt;
+    padding: 0
+    }
+.block_4 {
+    color: black;
+    display: block;
+    font-size: 0.875em;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    margin: 0 0 10pt;
+    padding: 0
+    }
+.block_5 {
+    display: block;
+    font-size: 1.375em;
+    font-variant: small-caps;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    margin: 24pt 0 0;
+    padding: 0
+    }
+.block_6 {
+    color: black;
+    display: block;
+    font-family: serif;
+    font-size: 0.75em;
+    font-weight: normal;
+    line-height: 1.2;
+    margin: 10pt 0 0;
+    padding: 0
+    }
+.block_7 {
+    display: block;
+    font-size: 1.25em;
+    font-variant: small-caps;
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 10pt 0 0;
+    padding: 0
+    }
+.block_8 {
+    color: black;
+    display: block;
+    font-family: serif;
+    font-size: 0.75em;
+    line-height: 1.2;
+    margin: 0 0 10pt;
+    padding: 0
+    }
+.block_9 {
+    color: black;
+    display: block;
+    line-height: 1.2;
+    margin: 0 0 10pt;
+    padding: 0
+    }
+.block_10 {
+    color: black;
+    display: block;
+    font-family: serif;
+    font-size: 0.75em;
+    line-height: 1.2;
+    border-bottom: black solid 1pt;
+    margin: 0 0 10pt;
+    padding: 0 0 1pt
+    }
+.calibre {
+    color: #595959;
+    display: block;
+    font-family: "Candara", sans-serif;
+    font-size: 1em;
+    line-height: 1.2;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 5pt
+    }
+.calibre1 {
+    display: block;
+    line-height: 1.2
+    }
+.text_ {
+    font-family: "Tahoma", sans-serif;
+    font-size: 2em;
+    line-height: 1.2
+    }

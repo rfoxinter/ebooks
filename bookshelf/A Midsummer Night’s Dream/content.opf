@@ -1,0 +1,60 @@
+<?xml version="1.0"  encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+  <metadata xmlns:calibre="http://calibre.kovidgoyal.net/2009/metadata" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dc:title>A Midsummer Night’s Dream</dc:title>
+    <dc:creator opf:role="aut" opf:file-as="Shakespeare, William">William Shakespeare</dc:creator>
+    <dc:contributor opf:role="bkp">calibre (4.6.0) [https://calibre-ebook.com]</dc:contributor>
+    <dc:identifier id="uuid_id" opf:scheme="uuid">dc145e06-e57c-4f09-8949-c04fc510f557</dc:identifier>
+    <dc:date>0101-01-01T00:00:00+00:00</dc:date>
+    <dc:subject>Drama</dc:subject>
+    <dc:language>en</dc:language>
+    <dc:identifier opf:scheme="calibre">dc145e06-e57c-4f09-8949-c04fc510f557</dc:identifier>
+    <meta name="cover" content="cover"/>
+    <meta name="calibre:timestamp" content="0101-01-01T00:00:00+00:00"/>
+    <meta name="calibre:title_sort" content="A Midsummer Night’s Dream"/>
+    <meta name="calibre:author_link_map" content="{&quot;William Shakespeare&quot;: &quot;&quot;}"/>
+  </metadata>
+  <manifest>
+    <item href="titlepage.xhtml" id="titlepage" media-type="application/xhtml+xml"/>
+    <item href="index_split_000.html" id="id217" media-type="application/xhtml+xml"/>
+    <item href="index_split_003.html" id="id214" media-type="application/xhtml+xml"/>
+    <item href="index_split_004.html" id="id213" media-type="application/xhtml+xml"/>
+    <item href="index_split_005.html" id="id212" media-type="application/xhtml+xml"/>
+    <item href="index_split_006.html" id="id211" media-type="application/xhtml+xml"/>
+    <item href="index_split_007.html" id="id210" media-type="application/xhtml+xml"/>
+    <item href="index_split_008.html" id="id29" media-type="application/xhtml+xml"/>
+    <item href="index_split_009.html" id="id28" media-type="application/xhtml+xml"/>
+    <item href="index_split_010.html" id="id27" media-type="application/xhtml+xml"/>
+    <item href="index_split_011.html" id="id26" media-type="application/xhtml+xml"/>
+    <item href="index_split_012.html" id="id25" media-type="application/xhtml+xml"/>
+    <item href="index_split_013.html" id="id24" media-type="application/xhtml+xml"/>
+    <item href="index_split_014.html" id="id23" media-type="application/xhtml+xml"/>
+    <item href="index_split_015.html" id="id22" media-type="application/xhtml+xml"/>
+    <item href="index_split_016.html" id="id21" media-type="application/xhtml+xml"/>
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+    <item href="page_styles.css" id="page_css" media-type="text/css"/>
+    <item href="stylesheet.css" id="css" media-type="text/css"/>
+    <item href="cover1.jpeg" id="cover" media-type="image/jpeg"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="titlepage"/>
+    <itemref idref="id217"/>
+    <itemref idref="id214"/>
+    <itemref idref="id213"/>
+    <itemref idref="id212"/>
+    <itemref idref="id211"/>
+    <itemref idref="id210"/>
+    <itemref idref="id29"/>
+    <itemref idref="id28"/>
+    <itemref idref="id27"/>
+    <itemref idref="id26"/>
+    <itemref idref="id25"/>
+    <itemref idref="id24"/>
+    <itemref idref="id23"/>
+    <itemref idref="id22"/>
+    <itemref idref="id21"/>
+  </spine>
+  <guide>
+    <reference href="titlepage.xhtml" title="Cover" type="cover"/>
+  </guide>
+</package>

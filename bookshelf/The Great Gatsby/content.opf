@@ -1,0 +1,66 @@
+<?xml version="1.0"  encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+  <metadata xmlns:calibre="http://calibre.kovidgoyal.net/2009/metadata" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dc:title>The Great Gatsby</dc:title>
+    <dc:creator opf:role="aut" opf:file-as="Fitzgerald, Francis Scott">Francis Scott Fitzgerald</dc:creator>
+    <dc:identifier id="uuid_id" opf:scheme="uuid">ba3a9fc8-a90b-4013-89e0-49c535726004</dc:identifier>
+    <dc:description>&lt;div&gt;
+&lt;p&gt;In 1922, F. Scott Fitzgerald announced his decision to write "something new--something extraordinary and beautiful and simple + intricately patterned." That extraordinary, beautiful, intricately patterned, and above all, simple novel became The Great Gatsby, arguably Fitzgerald's finest work and certainly the book for which he is best known. A portrait of the Jazz Age in all of its decadence and excess, Gatsby captured the spirit of the author's generation and earned itself a permanent place in American mythology. Self-made, self-invented millionaire Jay Gatsby embodies some of Fitzgerald's--and his country's--most abiding obsessions: money, ambition, greed, and the promise of new beginnings. "Gatsby believed in the green light, the orgiastic future that year by year recedes before us. It eluded us then, but that's no matter--tomorrow we will run faster, stretch out our arms farther.... And one fine morning--" Gatsby's rise to glory and eventual fall from grace becomes a kind of cautionary tale about the American Dream.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;It's also a love story, of sorts, the narrative of Gatsby's quixotic passion for Daisy Buchanan. The pair meet five years before the novel begins, when Daisy is a legendary young Louisville beauty and Gatsby an impoverished officer. They fall in love, but while Gatsby serves overseas, Daisy marries the brutal, bullying, but extremely rich Tom Buchanan. After the war, Gatsby devotes himself blindly to the pursuit of wealth by whatever means--and to the pursuit of Daisy, which amounts to the same thing. "Her voice is full of money," Gatsby says admiringly, in one of the novel's more famous descriptions. His millions made, Gatsby buys a mansion across Long Island Sound from Daisy's patrician East Egg address, throws lavish parties, and waits for her to appear. When she does, events unfold with all the tragic inevitability of a Greek drama, with detached, cynical neighbor Nick Carraway acting as chorus throughout. Spare, elegantly plotted, and written in crystalline prose, The Great Gatsby is as perfectly satisfying as the best kind of poem.&lt;/p&gt;
+&lt;p&gt;* * *&lt;/p&gt;
+&lt;p&gt;"Now we have an American masterpiece in its final form: the original crystal has shaped itself into the true diamond. This is the novel as Fitzgerald wished it to be, and so it is what we have dreamed of, sleeping and waking." -- James Dickey&lt;/p&gt;
+&lt;p&gt;* * *&lt;/p&gt;
+&lt;p&gt;The Great Gatsby is a novel by the American author F. Scott Fitzgerald. First published on April 10, 1925, it is set on Long Island's North Shore and in New York City during the summer of 1922.&lt;/p&gt;
+&lt;p&gt;The novel takes place following the First World War. American society enjoyed prosperity during the "roaring" 1920s as the economy soared. At the same time, Prohibition, the ban on the sale and manufacture of alcohol as mandated by the Eighteenth Amendment, made millionaires out of bootleggers. After its republishing in 1945 and 1953, it quickly found a wide readership and is today widely regarded as a paragon of the Great American Novel, and a literary classic. The Great Gatsby has become a standard text in high school and university courses on American literature in countries around the world, and is ranked second in the Modern Library's lists of the 100 Best Novels of the 20th Century.&lt;/p&gt;&lt;/div&gt;</dc:description>
+    <dc:contributor opf:role="bkp">calibre (4.6.0) [https://calibre-ebook.com]</dc:contributor>
+    <dc:rights>This work is available for countries where copyright is Life+70.</dc:rights>
+    <dc:date>0101-01-01T00:00:00+00:00</dc:date>
+    <dc:language>en</dc:language>
+    <dc:identifier opf:scheme="calibre">ba3a9fc8-a90b-4013-89e0-49c535726004</dc:identifier>
+    <meta name="cover" content="cover"/>
+    <meta name="calibre:timestamp" content="0101-01-01T00:00:00+00:00"/>
+    <meta name="calibre:title_sort" content="The Great Gatsby"/>
+    <meta name="calibre:author_link_map" content="{&quot;Francis Scott Fitzgerald&quot;: &quot;&quot;}"/>
+  </metadata>
+  <manifest>
+    <item href="titlepage.xhtml" id="titlepage1" media-type="application/xhtml+xml"/>
+    <item href="OPS/title.xml" id="titlepage" media-type="application/xhtml+xml"/>
+    <item href="OPS/about.xml" id="about" media-type="application/xhtml+xml"/>
+    <item href="OPS/main0.xml" id="main0" media-type="application/xhtml+xml"/>
+    <item href="OPS/main1.xml" id="main1" media-type="application/xhtml+xml"/>
+    <item href="OPS/main2.xml" id="main2" media-type="application/xhtml+xml"/>
+    <item href="OPS/main3.xml" id="main3" media-type="application/xhtml+xml"/>
+    <item href="OPS/main4.xml" id="main4" media-type="application/xhtml+xml"/>
+    <item href="OPS/main5.xml" id="main5" media-type="application/xhtml+xml"/>
+    <item href="OPS/main6.xml" id="main6" media-type="application/xhtml+xml"/>
+    <item href="OPS/main7.xml" id="main7" media-type="application/xhtml+xml"/>
+    <item href="OPS/main8.xml" id="main8" media-type="application/xhtml+xml"/>
+    <item href="OPS/main9.xml" id="main9" media-type="application/xhtml+xml"/>
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+    <item href="page_styles.css" id="page_css" media-type="text/css"/>
+    <item href="stylesheet.css" id="css" media-type="text/css"/>
+    <item href="cover.jpeg" id="cover" media-type="image/jpeg"/>
+    <item href="OPS/images/logo-feedbooks-tiny.png" id="logo-feedbooks-tiny" media-type="image/png"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="titlepage1"/>
+    <itemref idref="titlepage"/>
+    <itemref idref="about"/>
+    <itemref idref="main0"/>
+    <itemref idref="main1"/>
+    <itemref idref="main2"/>
+    <itemref idref="main3"/>
+    <itemref idref="main4"/>
+    <itemref idref="main5"/>
+    <itemref idref="main6"/>
+    <itemref idref="main7"/>
+    <itemref idref="main8"/>
+    <itemref idref="main9"/>
+  </spine>
+  <guide>
+    <reference href="OPS/title.xml" title="Title Page" type="title-page"/>
+    <reference href="OPS/main0.xml" title="Main0" type="text"/>
+    <reference href="titlepage.xhtml" title="Cover" type="cover"/>
+    <reference href="OPS/about.xml" title="About" type="bibliography"/>
+  </guide>
+</package>
