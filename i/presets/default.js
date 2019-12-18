@@ -82,7 +82,7 @@ Bibi.Preset = {
 
 // =================================================================================================
 
-"trustworthy-origins": ["https://drive.google.com/drive/folders/1qP5W7TYBRsTQFXuI4179aESxCYWmDMEW?usp=sharing"]
+"trustworthy-origins": ["https://drive.google.com/drive/folders/"]
 
 // =================================================================================================
 
