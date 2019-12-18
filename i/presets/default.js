@@ -82,7 +82,6 @@ Bibi.Preset = {
 
 // =================================================================================================
 
-<<<<<<< HEAD
 "trustworthy-origins": [
 { "name": "Gdrive", "src": "https://drive.google.com/file/" },
 ],
