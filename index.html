@@ -10,33 +10,271 @@
             	window.open("./i/?book="+repuser);
             }
         </script>
-    <body>
+        <script type="text/javascript">
+            function aBibi() {
+                var p = document.getElementById("openBibi");
+                p.onclick = openNow;
+            }
+            function openNow(){
+                window.open("./i/", "_blank");
+            }
+        </script>
+    <body onload="aBibi();">
         <div class="bloc1">
             <h1>Entrez le nom du livre ici</h1>
             <form name="bookshelf" id="bookshelf">
                 <input type="text" name="book" id="book" placeholder="Entez le titre du livre">
                 <button onclick="openBook()">Trouver le livre</button>
-                
-                <a href=""><p>Ou télécharger un .epub</p></a>
+                <a id="openBibi" href="https://drive.google.com/drive/folders/1qP5W7TYBRsTQFXuI4179aESxCYWmDMEW?usp=sharing"><p>Ou télécharger un .epub</p></a>
             </form>
         </div>
         <div>
             <h1>Bibliothèque</h1>
-            <a href="#fr"><p>Livres français</p></a>
-            <a href="#en"><p>Livres anglais</p></a>
+            <table>
+                <tr>
+                    <td>
+                        <ul>
+                            <li><a href="#fr"><p class="margin_right">Livres français</p></a></li>
+                            <ul>
+                                <li><a href="#fr_a"><p>a</p></a></li>
+                                <li><a href="#fr_b"><p>b</p></a></li>
+                                <li><a href="#fr_c"><p>c</p></a></li>
+                                <li><a href="#fr_d"><p>d</p></a></li>
+                                <li><a href="#fr_e"><p>e</p></a></li>
+                                <li><a href="#fr_f"><p>f</p></a></li>
+                                <li><a href="#fr_g"><p>g</p></a></li>
+                                <li><a href="#fr_h"><p>h</p></a></li>
+                                <li><a href="#fr_i"><p>i</p></a></li>
+                                <li><a href="#fr_j"><p>j</p></a></li>
+                                <li><a href="#fr_k"><p>k</p></a></li>
+                                <li><a href="#fr_l"><p>l</p></a></li>
+                                <li><a href="#fr_m"><p>m</p></a></li>
+                                <li><a href="#fr_n"><p>n</p></a></li>
+                                <li><a href="#fr_o"><p>o</p></a></li>
+                                <li><a href="#fr_p"><p>p</p></a></li>
+                                <li><a href="#fr_q"><p>q</p></a></li>
+                                <li><a href="#fr_r"><p>r</p></a></li>
+                                <li><a href="#fr_s"><p>s</p></a></li>
+                                <li><a href="#fr_t"><p>t</p></a></li>
+                                <li><a href="#fr_u"><p>u</p></a></li>
+                                <li><a href="#fr_v"><p>v</p></a></li>
+                                <li><a href="#fr_w"><p>w</p></a></li>
+                                <li><a href="#fr_x"><p>x</p></a></li>
+                                <li><a href="#fr_y"><p>y</p></a></li>
+                                <li><a href="#fr_z"><p>d</p></a></li>
+                            </ul>
+                        </ul>
+                    </td>
+                    <td class="border_left">
+                        <ul>
+                            <li><a href="#en"><p>Livres anglais</p></a></li>
+                            <ul>
+                                <li><a href="#en_a"><p>a</p></a></li>
+                                <li><a href="#en_b"><p>b</p></a></li>
+                                <li><a href="#en_c"><p>c</p></a></li>
+                                <li><a href="#en_d"><p>d</p></a></li>
+                                <li><a href="#en_e"><p>e</p></a></li>
+                                <li><a href="#en_f"><p>f</p></a></li>
+                                <li><a href="#en_g"><p>g</p></a></li>
+                                <li><a href="#en_h"><p>h</p></a></li>
+                                <li><a href="#en_i"><p>i</p></a></li>
+                                <li><a href="#en_j"><p>j</p></a></li>
+                                <li><a href="#en_k"><p>k</p></a></li>
+                                <li><a href="#en_l"><p>l</p></a></li>
+                                <li><a href="#en_m"><p>m</p></a></li>
+                                <li><a href="#en_n"><p>n</p></a></li>
+                                <li><a href="#en_o"><p>o</p></a></li>
+                                <li><a href="#en_p"><p>p</p></a></li>
+                                <li><a href="#en_q"><p>q</p></a></li>
+                                <li><a href="#en_r"><p>r</p></a></li>
+                                <li><a href="#en_s"><p>s</p></a></li>
+                                <li><a href="#en_t"><p>t</p></a></li>
+                                <li><a href="#en_u"><p>u</p></a></li>
+                                <li><a href="#en_v"><p>v</p></a></li>
+                                <li><a href="#en_w"><p>w</p></a></li>
+                                <li><a href="#en_x"><p>x</p></a></li>
+                                <li><a href="#en_y"><p>y</p></a></li>
+                                <li><a href="#en_z"><p>d</p></a></li>
+                            </ul>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
             <div id="fr">
                 <h2>Livres français</h2>
-                <ul>
-                    <li>Harry Potter et l'Enfant Maudit, Parties Un et Deux</li>
-                    <li>Madame Bovary</li>
-                    <li>Matin brun</li>
-                </ul>
+                <div id="fr_a">
+                    
+                </div>
+                <div id="fr_b">
+                    
+                </div>
+                <div id="fr_c">
+                    
+                </div>
+                <div id="fr_d">
+                    
+                </div>
+                <div id="fr_e">
+                    
+                </div>
+                <div id="fr_f">
+                    
+                </div>
+                <div id="fr_g">
+                    
+                </div>
+                <div id="fr_h">
+                    <ul>
+                        <li>Harry Potter et l'Enfant Maudit, Parties Un et Deux</li>
+                    </ul>
+                </div>
+                <div id="fr_i">
+                    
+                </div>
+                <div id="fr_j">
+                    
+                </div>
+                <div id="fr_k">
+                    
+                </div>
+                <div id="fr_l">
+                    
+                </div>
+                <div id="fr_m">
+                    <ul>
+                        <li>Madame Bovary</li>
+                        <li>Matin brun</li>
+                    </ul>
+                </div>
+                <div id="fr_n">
+                    
+                </div>
+                <div id="fr_o">
+                    
+                </div>
+                <div id="fr_p">
+                    
+                </div>
+                <div id="fr_q">
+                    
+                </div>
+                <div id="fr_r">
+                    
+                </div>
+                <div id="fr_s">
+                    
+                </div>
+                <div id="fr_t">
+                    
+                </div>
+                <div id="fr_u">
+                    
+                </div>
+                <div id="fr_v">
+                    
+                </div>
+                <div id="fr_w">
+                    
+                </div>
+                <div id="fr_x">
+                    
+                </div>
+                <div id="fr_y">
+                    
+                </div>
+                <div id="fr_z">
+                    
+                </div>
             </div>
             <div id="en">
                 <h2>Livres anglais</h2>
-                <ul>
-                    <li>The Catcher in the Rye</li>
-                </ul>
+                <div id="en_a">
+                    <ul>
+                        <li>A Midsummer Night’s Dream</li>
+                    </ul>
+                </div>
+                <div id="en_b">
+                    
+                </div>
+                <div id="en_c">
+                    
+                </div>
+                <div id="en_d">
+                    
+                </div>
+                <div id="en_e">
+                    
+                </div>
+                <div id="en_f">
+                    
+                </div>
+                <div id="en_g">
+                    
+                </div>
+                <div id="en_h">
+                    <ul>
+                        <li>Harry Potter and the Cursed Child, Parts One and Two</li>
+                    </ul>
+                </div>
+                <div id="en_i">
+                    
+                </div>
+                <div id="en_j">
+                    
+                </div>
+                <div id="en_k">
+                    
+                </div>
+                <div id="en_l">
+                    
+                </div>
+                <div id="en_m">
+
+                </div>
+                <div id="en_n">
+                    
+                </div>
+                <div id="en_o">
+                    
+                </div>
+                <div id="en_p">
+                    
+                </div>
+                <div id="en_q">
+                    
+                </div>
+                <div id="en_r">
+                    
+                </div>
+                <div id="en_s">
+                    
+                </div>
+                <div id="en_t">
+                    <ul>
+                        <li>The Absolutely True Diary of a Part-Time Indian</li>
+                        <li>The Catcher in the Rye</li>
+                        <li>The Great Gatsby</li>
+                        <li>The Importance of Being Earnest</li>
+                    </ul>
+                </div>
+                <div id="en_u">
+                    
+                </div>
+                <div id="en_v">
+                    
+                </div>
+                <div id="en_w">
+                    
+                </div>
+                <div id="en_x">
+                    
+                </div>
+                <div id="en_y">
+                    
+                </div>
+                <div id="en_z">
+                    
+                </div>
             </div>
         </div>
 </body>
