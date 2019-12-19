@@ -1,0 +1,86 @@
+h1{
+	color: #607D8B;
+	font-family: "Verdana", "Arial", sans-serif;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+h2{
+	color: #7893A1;
+	font-family: "Gadget", "Arial", sans-serif;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	font-weight: bold;
+}
+
+input{
+	font-family: "Tahoma", "Arial", sans-serif;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	border-style: solid;
+	border-color: #4169E1;
+	border-radius: 5px;
+}
+
+button{
+	font-family: "Tahoma", "Arial", sans-serif;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	border-style: solid;
+	border-color: #4169E1;
+	border-radius: 5px;
+
+}
+
+p{
+	margin-top: 0px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+
+a:link{
+	color: #2E64FE;
+	font-family: "Helvetica", "Arial", sans-serif;
+}
+
+a:visited{
+	color: #CC2EFA;
+	font-family: "Helvetica", "Arial", sans-serif;
+}
+
+a:hover{
+	color: #FE642E;
+	font-family: "Helvetica", "Arial", sans-serif;
+}
+
+a:active{
+	color: #6E6E6E;
+	font-family: "Helvetica", "Arial", sans-serif;
+}
+
+li{
+	color: #2A363C;
+	font-family: "Geneva", "Arial", sans-serif;
+	margin-top: 0px;
+	margin-left: 5px;
+}
+
+ul{
+	margin-top: 0px;
+	margin-bottom: 7px;
+	margin-left: 0px;
+}
+
+.bloc1{
+	margin-bottom: 50px;
+}
+
+#fr{
+	margin-top: 10px;
+}
