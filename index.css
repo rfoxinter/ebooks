@@ -46,22 +46,22 @@ p{
 
 a:link{
 	color: #2E64FE;
-	font-family: "Helvetica", "Arial", sans-serif;
+	font-family: "Courier", "Arial", sans-serif;
 }
 
 a:visited{
 	color: #CC2EFA;
-	font-family: "Helvetica", "Arial", sans-serif;
+	font-family: "Courier", "Arial", sans-serif;
 }
 
 a:hover{
 	color: #FE642E;
-	font-family: "Helvetica", "Arial", sans-serif;
+	font-family: "Courier", "Arial", sans-serif;
 }
 
 a:active{
 	color: #6E6E6E;
-	font-family: "Helvetica", "Arial", sans-serif;
+	font-family: "Courier", "Arial", sans-serif;
 }
 
 li{
@@ -73,7 +73,7 @@ li{
 
 ul{
 	margin-top: 0px;
-	margin-bottom: 7px;
+	margin-bottom: 0px;
 	margin-left: 0px;
 }
 
@@ -83,4 +83,16 @@ ul{
 
 #fr{
 	margin-top: 10px;
+}
+
+#en{
+	margin-top: 10px;
+}
+
+.border_left{
+	border-left: 2px solid;
+}
+
+.margin_right{
+	margin-right: 15px;
 }
