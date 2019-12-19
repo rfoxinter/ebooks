@@ -6,7 +6,7 @@
         <script type="text/javascript">
             function openBook() {
             	repuser=document.bookshelf.book.value;
-            	window.open("https://rfoxinter.github.io/ebooks/i/?book="+repuser, "_self");
+            	window.open("./i/?book="+repuser, "_self");
             }
         </script>
     <body>
@@ -16,6 +16,7 @@
                 <p>Nom du livre</p>
                 <input type="text" name="book" id="book" placeholder="Entez le titre du livre">
                 <input type="button" value="Trouver le livre" onclick="openBook()" />
+                <a href="">Télécharger un .epub</a>
             </form>
         </div>
         <br>
