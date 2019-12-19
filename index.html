@@ -5,16 +5,16 @@
         <title>Bib/i | Bibliothèque</title>
         <script type="text/javascript">
             function openBook() {
-            	repuser=document.login.user.value;
-            	window.open("./i/?book="+repuser, "_self");
+            	repuser=document.bookshelf.book.value;
+            	window.open("https://rfoxinter.github.io/ebooks/i/?book="+repuser, "_self");
             }
         </script>
     <body>
         <div>
             <h1>Entrez le nom du livre ici</h1>
-            <form name="login" id="login">
+            <form name="bookshelf" id="bookshelf">
                 <p>Nom du livre</p>
-                <input type="text" name="user" id="user" placeholder="Entez le titre du livre">
+                <input type="text" name="book" id="book" placeholder="Entez le titre du livre">
                 <input type="submit" value="Trouver le livre" onclick="openBook()" />
             </form>
         </div>
