@@ -1,9 +1,24 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <title>Bib/i</title>
-      <meta http-equiv = "refresh" content = "0; url = https://rfoxinter.github.io/ebooks/i/" />
-   </head>
-   <body>
-   </body>
+    <head>
+        <meta charset="utf-8" />
+        <title>Bib/i | Bibliothèque</title>
+        <script type="text/javascript">
+            function openBook() {
+            	repuser=document.login.user.value;
+            	window.open("./i/?book="+repuser, "_self");
+            }
+        </script>
+    <body>
+        <div class="loginbox">
+        <img src="https://padlet-uploads.storage.googleapis.com/334492170/21c1a6518986fa1886cf5d8c7c2f4bc5/login_avatar.png" class="avatar">
+            <h1>Connectez-vous ici</h1>
+            <form name="login" id="login">
+                <p>Nom d'utilisateur</p>
+                <input type="text" name="user" id="user" placeholder="Entez un nom d'utilisateur">
+                <input type="submit" value="Trouver le livre" onclick="openBook()" />
+            </form>
+        </div>
+</body>
+</head>
 </html>
