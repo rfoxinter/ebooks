@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="eng">
   <head>
-    <meta content="ba3a9fc8-a90b-4013-89e0-49c535726004" name="dtb:uid"/>
+    <meta content="8174ac9e-168e-4db5-a3f6-b5a0d214c1c3" name="dtb:uid"/>
     <meta content="2" name="dtb:depth"/>
     <meta content="calibre (4.6.0)" name="dtb:generator"/>
     <meta content="0" name="dtb:totalPageCount"/>
@@ -15,67 +15,67 @@
       <navLabel>
         <text>Title</text>
       </navLabel>
-      <content src="OPS/title.xml"/>
+      <content src="OPS/title.xhtml"/>
     </navPoint>
     <navPoint class="about" id="level1-about" playOrder="2">
       <navLabel>
         <text>About</text>
       </navLabel>
-      <content src="OPS/about.xml"/>
+      <content src="OPS/about.xhtml"/>
     </navPoint>
     <navPoint class="chapter" id="chap455030" playOrder="3">
       <navLabel>
         <text>Chapter 1</text>
       </navLabel>
-      <content src="OPS/main1.xml"/>
+      <content src="OPS/main1.xhtml"/>
     </navPoint>
     <navPoint class="chapter" id="chap455031" playOrder="4">
       <navLabel>
         <text>Chapter 2</text>
       </navLabel>
-      <content src="OPS/main2.xml"/>
+      <content src="OPS/main2.xhtml"/>
     </navPoint>
     <navPoint class="chapter" id="chap455032" playOrder="5">
       <navLabel>
         <text>Chapter 3</text>
       </navLabel>
-      <content src="OPS/main3.xml"/>
+      <content src="OPS/main3.xhtml"/>
     </navPoint>
     <navPoint class="chapter" id="chap455033" playOrder="6">
       <navLabel>
         <text>Chapter 4</text>
       </navLabel>
-      <content src="OPS/main4.xml"/>
+      <content src="OPS/main4.xhtml"/>
     </navPoint>
     <navPoint class="chapter" id="chap455034" playOrder="7">
       <navLabel>
         <text>Chapter 5</text>
       </navLabel>
-      <content src="OPS/main5.xml"/>
+      <content src="OPS/main5.xhtml"/>
     </navPoint>
     <navPoint class="chapter" id="chap455035" playOrder="8">
       <navLabel>
         <text>Chapter 6</text>
       </navLabel>
-      <content src="OPS/main6.xml"/>
+      <content src="OPS/main6.xhtml"/>
     </navPoint>
     <navPoint class="chapter" id="chap455036" playOrder="9">
       <navLabel>
         <text>Chapter 7</text>
       </navLabel>
-      <content src="OPS/main7.xml"/>
+      <content src="OPS/main7.xhtml"/>
     </navPoint>
     <navPoint class="chapter" id="chap455037" playOrder="10">
       <navLabel>
         <text>Chapter 8</text>
       </navLabel>
-      <content src="OPS/main8.xml"/>
+      <content src="OPS/main8.xhtml"/>
     </navPoint>
     <navPoint class="chapter" id="chap455038" playOrder="11">
       <navLabel>
         <text>Chapter 9</text>
       </navLabel>
-      <content src="OPS/main9.xml"/>
+      <content src="OPS/main9.xhtml"/>
     </navPoint>
   </navMap>
 </ncx>
