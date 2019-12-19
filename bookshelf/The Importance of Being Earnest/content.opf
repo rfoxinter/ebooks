@@ -3,16 +3,16 @@
   <metadata xmlns:calibre="http://calibre.kovidgoyal.net/2009/metadata" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <dc:title>The Importance of Being Earnest</dc:title>
     <dc:creator opf:role="aut" opf:file-as="Wilde, Oscar">Oscar Wilde</dc:creator>
+    <dc:description>A comedy skewering Victorian high society.</dc:description>
     <dc:contributor opf:role="bkp">calibre (4.6.0) [https://calibre-ebook.com]</dc:contributor>
     <dc:identifier id="uuid_id" opf:scheme="uuid">d5204346-7b30-4823-a587-89e395a9118a</dc:identifier>
-    <dc:description>A comedy skewering Victorian high society.</dc:description>
     <dc:date>0101-01-01T00:00:00+00:00</dc:date>
     <dc:subject>Drama</dc:subject>
     <dc:language>en</dc:language>
     <dc:identifier opf:scheme="calibre">d5204346-7b30-4823-a587-89e395a9118a</dc:identifier>
-    <meta name="calibre:timestamp" content="0101-01-01T00:00:00+00:00"/>
     <meta name="cover" content="cover"/>
     <meta name="calibre:title_sort" content="The Importance of Being Earnest"/>
+    <meta name="calibre:timestamp" content="0101-01-01T00:00:00+00:00"/>
     <meta name="calibre:author_link_map" content="{&quot;Oscar Wilde&quot;: &quot;&quot;}"/>
   </metadata>
   <manifest>
@@ -27,7 +27,7 @@
     <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
     <item href="page_styles.css" id="page_css" media-type="text/css"/>
     <item href="stylesheet.css" id="css" media-type="text/css"/>
-    <item href="cover.jpeg" id="cover" media-type="image/jpeg"/>
+    <item href="cover1.jpeg" id="cover" media-type="image/jpeg"/>
     <item href="epub/images/titlepage.png" id="titlepage.png" media-type="image/png"/>
   </manifest>
   <spine toc="ncx">

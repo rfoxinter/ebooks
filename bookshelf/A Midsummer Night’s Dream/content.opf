@@ -3,15 +3,15 @@
   <metadata xmlns:calibre="http://calibre.kovidgoyal.net/2009/metadata" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <dc:title>A Midsummer Night’s Dream</dc:title>
     <dc:creator opf:role="aut" opf:file-as="Shakespeare, William">William Shakespeare</dc:creator>
-    <dc:contributor opf:role="bkp">calibre (4.6.0) [https://calibre-ebook.com]</dc:contributor>
     <dc:identifier id="uuid_id" opf:scheme="uuid">dc145e06-e57c-4f09-8949-c04fc510f557</dc:identifier>
     <dc:date>0101-01-01T00:00:00+00:00</dc:date>
+    <dc:contributor opf:role="bkp">calibre (4.6.0) [https://calibre-ebook.com]</dc:contributor>
     <dc:subject>Drama</dc:subject>
     <dc:language>en</dc:language>
     <dc:identifier opf:scheme="calibre">dc145e06-e57c-4f09-8949-c04fc510f557</dc:identifier>
+    <meta name="calibre:title_sort" content="A Midsummer Night’s Dream"/>
     <meta name="cover" content="cover"/>
     <meta name="calibre:timestamp" content="0101-01-01T00:00:00+00:00"/>
-    <meta name="calibre:title_sort" content="A Midsummer Night’s Dream"/>
     <meta name="calibre:author_link_map" content="{&quot;William Shakespeare&quot;: &quot;&quot;}"/>
   </metadata>
   <manifest>
@@ -34,7 +34,7 @@
     <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
     <item href="page_styles.css" id="page_css" media-type="text/css"/>
     <item href="stylesheet.css" id="css" media-type="text/css"/>
-    <item href="cover1.jpeg" id="cover" media-type="image/jpeg"/>
+    <item href="cover.jpeg" id="cover" media-type="image/jpeg"/>
   </manifest>
   <spine toc="ncx">
     <itemref idref="titlepage"/>

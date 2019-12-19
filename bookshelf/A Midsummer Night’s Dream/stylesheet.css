@@ -1,7 +1,7 @@
 .block_ {
     color: #404040;
     display: block;
-    font-size: 1.5em;
+    font-size: 1.375em;
     font-variant: small-caps;
     font-weight: bold;
     line-height: 1.2;
@@ -21,7 +21,7 @@
 .block_2 {
     color: #404040;
     display: block;
-    font-size: 1.5em;
+    font-size: 1.375em;
     font-variant: small-caps;
     font-weight: bold;
     line-height: 1.2;
@@ -51,7 +51,7 @@
     }
 .block_5 {
     display: block;
-    font-size: 1.375em;
+    font-size: 1.25em;
     font-variant: small-caps;
     font-weight: bold;
     line-height: 1.2;
@@ -71,7 +71,7 @@
     }
 .block_7 {
     display: block;
-    font-size: 1.25em;
+    font-size: 1.125em;
     font-variant: small-caps;
     font-weight: bold;
     line-height: 1.2;
@@ -100,8 +100,8 @@
     font-family: serif;
     font-size: 0.75em;
     line-height: 1.2;
-    border-bottom: black solid 1pt;
     margin: 0 0 10pt;
+    border-bottom: black solid 1pt;
     padding: 0 0 1pt
     }
 .calibre {
@@ -120,6 +120,6 @@
     }
 .text_ {
     font-family: "Tahoma", sans-serif;
-    font-size: 2em;
+    font-size: 1.83333em;
     line-height: 1.2
     }
