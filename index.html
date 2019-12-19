@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <title>Bib/i | Bibliothèque</title>
+        <link rel="stylesheet" type="text/css" href="./index.css">
         <script type="text/javascript">
             function openBook() {
             	repuser=document.bookshelf.book.value;
@@ -10,21 +11,33 @@
             }
         </script>
     <body>
-        <div>
+        <div class="bloc1">
             <h1>Entrez le nom du livre ici</h1>
             <form name="bookshelf" id="bookshelf">
                 <input type="text" name="book" id="book" placeholder="Entez le titre du livre">
                 <button onclick="openBook()">Trouver le livre</button>
-                <br>
-                <a href="">Ou télécharger un .epub</a>
+                
+                <a href=""><p>Ou télécharger un .epub</p></a>
             </form>
         </div>
-        <br>
         <div>
-        	<h1>Bibliothèque</h1>
-            <ul>
-            	<li>The Catcher in the Rye</li>
-            </ul>
+            <h1>Bibliothèque</h1>
+            <a href="#fr"><p>Livres français</p></a>
+            <a href="#en"><p>Livres anglais</p></a>
+            <div id="fr">
+                <h2>Livres français</h2>
+                <ul>
+                    <li>Harry Potter et l'Enfant Maudit, Parties Un et Deux</li>
+                    <li>Madame Bovary</li>
+                    <li>Matin brun</li>
+                </ul>
+            </div>
+            <div id="en">
+                <h2>Livres anglais</h2>
+                <ul>
+                    <li>The Catcher in the Rye</li>
+                </ul>
+            </div>
         </div>
 </body>
 </head>
