@@ -7,7 +7,7 @@
         <script type="text/javascript">
             function openBook() {
             	repuser=document.bookshelf.book.value;
-            	window.open("./i/?book="+repuser)&&window.open("./", "_self");
+            	window.open("./i/?book="+repuser)&&window.open("./?book=#top", "_self");
             }
         </script>
         <script type="text/javascript">
@@ -20,7 +20,7 @@
             }
         </script>
     <body onload="aBibi();">
-        <div class="bloc1">
+        <div class="bloc1" id="top">
             <h1>Entrez le nom du livre ici</h1>
             <form name="bookshelf" id="bookshelf">
                 <input type="text" name="book" id="book" placeholder="Entez le titre du livre">
