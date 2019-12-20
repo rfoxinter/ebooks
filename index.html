@@ -7,7 +7,7 @@
         <script type="text/javascript">
             function openBook() {
             	repuser=document.bookshelf.book.value;
-            	window.open("./i/?book="+repuser)&&window.open("./?book=#top", "_self");
+            	window.open("./i/?book="+repuser);
             }
         </script>
         <script type="text/javascript">
@@ -19,14 +19,15 @@
                 window.open("./i/", "_blank");
             }
         </script>
+    </head>
     <body onload="aBibi();">
         <div class="bloc1" id="top">
             <h1>Entrez le nom du livre ici</h1>
-            <form name="bookshelf" id="bookshelf">
+            <form name="bookshelf" id="bookshelf" action="./merci/">
                 <input type="text" name="book" id="book" placeholder="Entez le titre du livre">
                 <button onclick="openBook()">Trouver le livre</button>
-                <a id="openBibi" href="https://drive.google.com/drive/folders/1qP5W7TYBRsTQFXuI4179aESxCYWmDMEW?usp=sharing"><p>Ou télécharger un .epub</p></a>
             </form>
+            <a id="openBibi" href="https://drive.google.com/drive/folders/1qP5W7TYBRsTQFXuI4179aESxCYWmDMEW?usp=sharing"><p>Ou télécharger un .epub</p></a>
         </div>
         <div>
             <h1>Bibliothèque</h1>
@@ -278,6 +279,5 @@
                 </div>
             </div>
         </div>
-</body>
-</head>
+    </body>
 </html>
