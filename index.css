@@ -6,6 +6,7 @@ h1{
 	margin-left: 5px;
 	text-decoration: underline;
 	font-weight: bold;
+	font-size: 35px;
 }
 
 h2{
@@ -15,6 +16,7 @@ h2{
 	margin-bottom: 5px;
 	margin-left: 5px;
 	font-weight: bold;
+	font-size: 20px;
 }
 
 input{
@@ -25,6 +27,7 @@ input{
 	border-style: solid;
 	border-color: #4169E1;
 	border-radius: 5px;
+	font-size: 15px;
 }
 
 button{
@@ -35,13 +38,14 @@ button{
 	border-style: solid;
 	border-color: #4169E1;
 	border-radius: 5px;
-
+	font-size: 15px;
 }
 
 p{
 	margin-top: 0px;
 	margin-bottom: 5px;
 	margin-left: 5px;
+	font-size: 17px;
 }
 
 a:link{
@@ -69,12 +73,14 @@ li{
 	font-family: "Geneva", "Arial", sans-serif;
 	margin-top: 0px;
 	margin-left: 5px;
+	font-size: 17px;
 }
 
 ul{
 	margin-top: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
+	font-size: 17px;
 }
 
 .bloc1{
