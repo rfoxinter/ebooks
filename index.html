@@ -19,47 +19,16 @@
                 window.open("./i/", "_blank");
             }
         </script>
-        <style>
-        	a#cRetour{
-        		border-radius:3px;
-        		padding:10px;
-        		font-size:15px;
-        		text-align:center;
-        		color:#fff;
-        		background:rgba(0, 0, 0, 0.25);
-        		position:fixed;
-        		right:20px;
-        		opacity:1;
-        		z-index:99999;
-        		transition:all ease-in 0.2s;
-        		backface-visibility: hidden;
-        		-webkit-backface-visibility: hidden;
-        		text-decoration: none;
-        	}
-        	a#cRetour:before{ content: "\25b2"; }
-        	a#cRetour:hover{
-        		background:rgba(0, 0, 0, 1);
-        		transition:all ease-in 0.2s;
-        	}
-        	a#cRetour.cInvisible{
-        		bottom:-35px;
-        		opacity:0;
-        		transition:all ease-in 0.5s;
-        	}
-        	a#cRetour.cVisible{
-        		bottom:20px;
-        		opacity:1;
-        	}
-        </style>
     </head>
     <body onload="aBibi();">
         <div class="bloc1" id="top">
-            <h1>Entrez le nom du livre ici</h1>
+            <h1>Ouvrir un livre</h1>
             <form name="bookshelf" id="bookshelf" action="./merci/">
                 <input type="text" name="book" id="book" placeholder="Entez le titre du livre">
                 <button onclick="openBook()">Trouver le livre</button>
             </form>
-            <a id="openBibi" href="https://drive.google.com/drive/folders/1qP5W7TYBRsTQFXuI4179aESxCYWmDMEW?usp=sharing"><p>Ou télécharger un .epub</p></a>
+            <a id="openBibi" href="https://drive.google.com/drive/folders/132B0PBKh3bqA5dlQ5uCCgLFlkG86vZGu?usp=sharing"><p>Ou télécharger un .epub</p></a>
+            <a href="./aide/" target="_blank" id="aide"><p>Comment ouvrir un .epub ?</p></a>
         </div>
         <div>
             <h1>Bibliothèque</h1>
@@ -311,16 +280,5 @@
                 </div>
             </div>
         </div>
-        <h1 id="haut">Titre de la page</h1>
-        Retour en haut
-        <div><a id="cRetour" class="cInvisible" href="#top"></a></div>
-        <script>
-        	document.addEventListener('DOMContentLoaded', function() {
-        		window.onscroll = function(ev) {
-        			document.getElementById("cRetour").className = (
-        				window.pageYOffset > 100) ? "cVisible" : "cInvisible";
-        		};
-        	});
-        </script>
     </body>
 </html>
