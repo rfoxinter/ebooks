@@ -3,7 +3,7 @@
     line-height: 1.2
     }
 .big1 {
-    font-size: 1.1em;
+    font-size: 1.11111em;
     line-height: 1.2
     }
 .c {
@@ -20,13 +20,13 @@
     font-size: 1em;
     line-height: 1.2;
     width: auto;
+    margin: 0 5pt;
     border: currentColor none 0;
-    padding: 0;
-    margin: 0 5pt
+    padding: 0
     }
 .calibre1 {
     display: block;
-    font-size: 1.375em;
+    font-size: 1.25em;
     font-weight: bold;
     line-height: 1.2;
     text-align: center;
@@ -56,7 +56,7 @@
     }
 .calibre7 {
     display: block;
-    font-size: 1.25em;
+    font-size: 1.125em;
     font-weight: bold;
     line-height: 1.2;
     padding-top: 1em;
@@ -80,7 +80,7 @@
     }
 .center {
     display: block;
-    font-size: 1.25em;
+    font-size: 1.125em;
     line-height: 1.2;
     text-align: center;
     text-indent: 0;
@@ -88,7 +88,7 @@
     }
 .center1 {
     display: block;
-    font-size: 1.375em;
+    font-size: 1.25em;
     font-weight: bold;
     line-height: 1.2;
     text-align: center;
@@ -97,26 +97,18 @@
     }
 .center2 {
     display: block;
-    font-size: 1.125em;
-    line-height: 1.2;
     text-align: center;
     text-indent: 0;
     margin: 0.75em 0
     }
 .center3 {
     display: block;
-    text-align: center;
-    text-indent: 0;
-    margin: 0.75em 0
-    }
-.center4 {
-    display: block;
     font-size: 0.75em;
     text-align: center;
     text-indent: 0;
     margin: 0.75em 0
     }
-.center5 {
+.center4 {
     display: block;
     font-weight: bold;
     text-align: center;
@@ -137,8 +129,8 @@
     display: block;
     text-align: justify;
     text-indent: 1.5em;
-    border-top: black dotted thin;
-    margin: 0 0 -1em
+    margin: 0 0 -1em;
+    border-top: black dotted thin
     }
 .figcenter {
     display: block;
@@ -147,7 +139,7 @@
     margin: 2em auto
     }
 .fnanchor {
-    font-size: 0.7em;
+    font-size: 0.77778em;
     line-height: 1.2;
     text-decoration: none;
     vertical-align: 0.3em
@@ -174,7 +166,7 @@
     }
 .notes {
     display: block;
-    font-size: 1.25em;
+    font-size: 1.125em;
     font-weight: bold;
     line-height: 1.2;
     padding-top: 1em;
@@ -233,7 +225,7 @@
     margin: 0.5em 4em 1em 0
     }
 .small {
-    font-size: 0.81818em;
+    font-size: 0.9em;
     line-height: 1.2
     }
 .small1 {
@@ -241,31 +233,31 @@
     color: gray;
     display: block;
     height: 2px;
-    border: #000 solid 1px;
-    margin: 1em 47%
+    margin: 1em 47%;
+    border: #000 solid 1px
     }
 .small2 {
     clear: both;
     color: gray;
     display: block;
     height: 2px;
-    border: #A9A9A9 solid 1px;
-    margin: 4em 35%
+    margin: 4em 35%;
+    border: #A9A9A9 solid 1px
     }
 .small3 {
-    font-size: 0.7em;
+    font-size: 0.77778em;
     line-height: 1.2
     }
 .small4 {
-    font-size: 0.6em
+    font-size: 0.66667em
     }
 .small5 {
     clear: both;
     color: gray;
     display: block;
     height: 2px;
-    border: #000 solid 1px;
-    margin: 2em 45%
+    margin: 2em 45%;
+    border: #000 solid 1px
     }
 .smcap {
     font-size: 0.875em;
