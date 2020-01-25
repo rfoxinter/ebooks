@@ -51,21 +51,25 @@ p{
 a:link{
 	color: #2E64FE;
 	font-family: "Courier", "Arial", sans-serif;
+	font-size: 17px;
 }
 
 a:visited{
 	color: #CC2EFA;
 	font-family: "Courier", "Arial", sans-serif;
+	font-size: 17px;
 }
 
 a:hover{
 	color: #FE642E;
 	font-family: "Courier", "Arial", sans-serif;
+	font-size: 17px;
 }
 
 a:active{
 	color: #6E6E6E;
 	font-family: "Courier", "Arial", sans-serif;
+	font-size: 17px;
 }
 
 li{
