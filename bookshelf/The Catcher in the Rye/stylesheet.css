@@ -1,19 +1,99 @@
-.calibre {
+.block_ {
     display: block;
+    margin: 0;
+    padding: 0
+    }
+.block_1 {
+    color: black;
+    display: block;
+    font-family: serif;
+    font-size: 0.875em;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0
+    }
+.block_2 {
+    color: black;
+    display: block;
+    margin: 0;
+    padding: 0
+    }
+.block_3 {
+    display: block;
+    text-indent: 36pt;
+    margin: 0;
+    padding: 0
+    }
+.block_4 {
+    display: block;
+    text-align: justify;
+    margin: 0;
+    padding: 0
+    }
+.block_5 {
+    display: block;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0
+    }
+.block_6 {
+    display: block;
+    text-align: justify;
+    text-indent: 36pt;
+    margin: 0;
+    padding: 0
+    }
+.block_7 {
+    display: block;
+    text-indent: -36pt;
+    margin: 0;
+    padding: 0
+    }
+.block_8 {
+    display: block;
+    text-indent: 36pt;
+    margin: 0;
+    padding: 0
+    }
+.block_9 {
+    display: block;
+    line-height: 2;
+    margin: 0;
+    padding: 0
+    }
+.block_10 {
+    display: block;
+    line-height: 28pt;
+    margin: 0;
+    padding: 0
+    }
+.block_11 {
+    display: block;
+    text-align: right;
+    text-indent: 36pt;
+    margin: 0;
+    padding: 0
+    }
+.block_12 {
+    display: block;
+    text-indent: -12pt;
+    margin: 0;
+    padding: 0
+    }
+.block_13 {
+    display: block;
+    line-height: 2;
+    text-indent: -36pt;
+    margin: 0;
+    padding: 0
+    }
+.calibre {
+    color: #000;
+    display: block;
+    font-family: "Times New Roman", serif;
     font-size: 1em;
     line-height: 1.2;
     padding-left: 0;
     padding-right: 0;
     margin: 0 5pt
-    }
-.calibre1 {
-    display: block;
-    margin: 1em 0
-    }
-.calibre2 {
-    display: block;
-    font-size: 1.125em;
-    font-weight: bold;
-    line-height: 1.2;
-    margin: 0.83em 0
     }
