@@ -115,7 +115,7 @@ Bibi.preset({
 
 "prioritise-fallbacks"               : false, // true or false (If true, Bibi uses <item> at the end of the fallback-chain.
 
-"trustworthy-origins"                : [],
+"trustworthy-origins"                : ["https://padlet-uploads.storage.googleapis.com"],
 
 
 /*
