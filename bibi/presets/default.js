@@ -43,11 +43,11 @@ Bibi.preset({
 
 "animate-page-flipping"      : "no", // "yes" or "no" or "desktop" or "mobile". Animate page flipping on paged view mode, or not.
 
-"use-history"                : "yes", // "yes" or "no" or "desktop" or "mobile"
-"max-history"                : 19, // Number (0-19). If larger than 19, treated as 19. If 0, "use-history" is treated as "no". 
+"use-history"                : "no", // "yes" or "no" or "desktop" or "mobile"
+"max-history"                : 0, // Number (0-19). If larger than 19, treated as 19. If 0, "use-history" is treated as "no". 
 
-"use-bookmarks"              : "yes", // "yes" or "no" or "desktop" or "mobile"
-"max-bookmarks"              : 3, // Number (0-9). If larger than 9, treated as 9. If 0, "use-bookmarks" is treated as "no" (but old data is kept in localStorage). 
+"use-bookmarks"              : "no", // "yes" or "no" or "desktop" or "mobile"
+"max-bookmarks"              : 0, // Number (0-9). If larger than 9, treated as 9. If 0, "use-bookmarks" is treated as "no" (but old data is kept in localStorage). 
 
 "use-slider"                 : "yes",
 "slider-mode"                : "auto", // "edgebar" or "bookmap" or "auto"
