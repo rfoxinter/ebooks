@@ -12,7 +12,7 @@ Bibi.preset({
 //-- Behavior
 //----------------------------------------------------------------------------------------------------------------------------------------------
 
-"reader-view-mode"             : "paged", // "paged" or "vertical" or "horizontal" ("paged" is for flipping, "vertical" and "horizontal" are for scrolling)
+"reader-view-mode"             : "vertical", // "paged" or "vertical" or "horizontal" ("paged" is for flipping, "vertical" and "horizontal" are for scrolling)
 "fix-reader-view-mode"         : "no", // "yes" or "no" or "desktop" or "mobile"
 
 "keep-settings"                : "yes", // "yes" or "no" or "desktop" or "mobile"
@@ -20,7 +20,7 @@ Bibi.preset({
 
 "autostart"                    : "yes", // "yes" or "no" or "desktop" or "mobile"
 "autostart-embedded"           : "no", // "yes" or "no" or "desktop" or "mobile" (It takes priority over "autostart" when the book is embedded in a webpage)
-"start-embedded-in-new-window" : "mobile", // "yes" or "no" or "desktop" or "mobile" (It is used only when "autostart" (or "autostart-embedded") is NOT enabled)
+"start-embedded-in-new-window" : "no", // "yes" or "no" or "desktop" or "mobile" (It is used only when "autostart" (or "autostart-embedded") is NOT enabled)
 
 "double-spread-for-reflowable" : "yes", // "yes" or "no" or "desktop" or "mobile"
 "allow-placeholders"           : "yes", // "yes" or "no" or "desktop" or "mobile"
@@ -41,7 +41,7 @@ Bibi.preset({
 "use-keys"                   : "yes", // "yes" or "no" or "desktop" or "mobile"
 "accept-orthogonal-input"    : "no", // "yes" or "no" or "desktop" or "mobile"
 
-"animate-page-flipping"      : "no", // "yes" or "no" or "desktop" or "mobile". Animate page flipping on paged view mode, or not.
+"animate-page-flipping"      : "yes", // "yes" or "no" or "desktop" or "mobile". Animate page flipping on paged view mode, or not.
 
 "use-history"                : "no", // "yes" or "no" or "desktop" or "mobile"
 "max-history"                : 0, // Number (0-19). If larger than 19, treated as 19. If 0, "use-history" is treated as "no". 
@@ -59,7 +59,7 @@ Bibi.preset({
 "font-size-scale-per-step"   : 1.25, // Number of scale
 "loupe-max-scale"            : 4, // Number of scale (minimum: 2)
 
-"ui-font-family"             : "", // CSS font-family value as "'Helvetica', sans-serif" or ""
+"ui-font-family"             : "Calibri", // CSS font-family value as "'Helvetica', sans-serif" or ""
 
 "flipper-width"              : 0.3, // Number of ratio (lower than 1) or pixel (1 or higher)
 
@@ -97,7 +97,7 @@ Bibi.preset({
 "website-name-in-title"    : "", // "" or name of your website replaces string "Bibi" in <title>.
 "website-name-in-menu"     : "", // "" or name of your website appears in setting-menu as a link. (Requires "website-href")
 "website-href"             : "", // "" or URL of your website to be used for the link in setting-menu. (Requires "website-name-in-menu")
-"remove-bibi-website-link" : false, // true or false (if true, the link to Bibi Website is not to be added in setting-menu)
+"remove-bibi-website-link" : true, // true or false (if true, the link to Bibi Website is not to be added in setting-menu)
 
 
 //==============================================================================================================================================
