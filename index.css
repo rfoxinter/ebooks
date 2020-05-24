@@ -72,39 +72,8 @@ a:active{
 	font-size: 17px;
 }
 
-li{
-	color: #2A363C;
-	font-family: "Geneva", "Arial", sans-serif;
-	margin-top: 0px;
-	margin-left: 5px;
-	font-size: 17px;
-}
-
-ul{
-	margin-top: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	font-size: 17px;
-}
-
 .bloc1{
 	margin-bottom: 50px;
-}
-
-#fr{
-	margin-top: 10px;
-}
-
-#en{
-	margin-top: 10px;
-}
-
-.border_left{
-	border-left: 2px solid;
-}
-
-.margin_right{
-	margin-right: 15px;
 }
 
 .video {
