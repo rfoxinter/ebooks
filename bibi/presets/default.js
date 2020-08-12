@@ -21,7 +21,7 @@ Bibi.preset({
 
 "autostart"                     : "yes", // "yes" or "no" or "desktop" or "mobile"
 "autostart-embedded"            : "no", // "yes" or "no" or "desktop" or "mobile" (It takes priority over "autostart" when the book is embedded in a webpage)
-"start-embedded-in-new-window"  : "mobile", // "yes" or "no" or "desktop" or "mobile" (It is used only when "autostart" (or "autostart-embedded") is NOT enabled)
+"start-embedded-in-new-window"  : "no", // "yes" or "no" or "desktop" or "mobile" (It is used only when "autostart" (or "autostart-embedded") is NOT enabled)
 
 
 //==============================================================================================================================================
@@ -51,10 +51,10 @@ Bibi.preset({
 "zoom-out-for-utilities"     : "yes", // "yes" or "no" or "desktop" or "mobile"
 
 "use-history"                : "yes", // "yes" or "no" or "desktop" or "mobile"
-"max-history"                : 19, // Number (0-19). If larger than 19, treated as 19. If 0, "use-history" is treated as "no". 
+"max-history"                : 10, // Number (0-19). If larger than 19, treated as 19. If 0, "use-history" is treated as "no". 
 
 "use-bookmarks"              : "yes", // "yes" or "no" or "desktop" or "mobile"
-"max-bookmarks"              : 3, // Number (0-9). If larger than 9, treated as 9. If 0, "use-bookmarks" is treated as "no" (but old data is kept in localStorage). 
+"max-bookmarks"              : 5, // Number (0-9). If larger than 9, treated as 9. If 0, "use-bookmarks" is treated as "no" (but old data is kept in localStorage). 
 
 "orientation-border-ratio"   : 1 * 2 / 1.5, // Number (Width per Height)
 
@@ -106,7 +106,7 @@ Bibi.preset({
 "website-name-in-title"    : "", // "" or name of your website replaces string "Bibi" in <title>.
 "website-name-in-menu"     : "", // "" or name of your website appears in setting-menu as a link. (Requires "website-href")
 "website-href"             : "", // "" or URL of your website to be used for the link in setting-menu. (Requires "website-name-in-menu")
-"remove-bibi-website-link" : false, // true or false (if true, the link to Bibi Website is not to be added in setting-menu)
+"remove-bibi-website-link" : true, // true or false (if true, the link to Bibi Website is not to be added in setting-menu)
 
 
 //==============================================================================================================================================
@@ -140,7 +140,7 @@ Bibi.preset({
 // It makes Bibi to be able to open EPUBs including useful scripts.
 // But on the other hand, it may also allow XSS of malicious EPUB in some cases.
 
-/* !!!! BE CAREFUL !!!! */ "trustworthy-origins" : ["https://padlet-uploads.storage.googleapis.com/517454805/"], // origins you trust other than where this Bibi is installed. (blank is recommended).
+/* !!!! BE CAREFUL !!!! */ "trustworthy-origins" : ["https://padlet-uploads.storage.googleapis.com"], // origins you trust other than where this Bibi is installed. (blank is recommended).
 // If you add origins to it, Bibi is made to open not only EPUBs in the same origin as Bibi itself is installed but also EPUBs in remote origins.
 // It is useful for some cases like that you want to set directory on the other storaging server as "bookshelf".
 // But note that not to set an origin where someone else also can publish files.
